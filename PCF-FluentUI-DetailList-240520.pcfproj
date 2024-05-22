@@ -12,7 +12,7 @@
     <ProjectGuid>8ced71a2-f1d1-46c1-90b3-bebdcd1f593e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
   </PropertyGroup>
-
+ 
   <PropertyGroup>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <!--Remove TargetFramework when this is available in 16.1-->
