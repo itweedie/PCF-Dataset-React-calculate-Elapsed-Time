@@ -9,7 +9,6 @@ This repository contains a PowerApps Component Framework (PCF) control that util
 - [Project Structure](#project-structure)
 - [Building the Control](#building-the-control)
 - [Testing the Control](#testing-the-control)
-- [Deploying the Control](#deploying-the-control)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -26,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/itweedie/PCF-Dataset-React-calculate-Elapsed-Time.git
-    cd pcf-fluentui-detailslist
+    cd PCF-Dataset-React-calculate-Elapsed-Time
     ```
 
 2. **Install dependencies**:
@@ -64,28 +63,6 @@ This command uses the PowerApps CLI to compile the TypeScript code and generate 
 2. **Open the test harness**:
     - Navigate to [http://localhost:8181](http://localhost:8181) in your web browser.
     - This will open the PCF test harness where you can test your control with sample data.
-
-## Deploying the Control
-
-To deploy the control to your Power Platform environment, follow these steps:
-
-1. **Package the control**:
-    ```sh
-    npm run pac:solution
-    ```
-
-    This command will create a solution package in the `solutions/` directory.
-
-2. **Import the solution**:
-    - Go to the Power Platform admin center.
-    - Navigate to `Solutions` and click `Import Solution`.
-    - Select the solution package created in the previous step and follow the prompts to complete the import.
-
-3. **Add the control to a form**:
-    - Open the form designer in your Power Platform environment.
-    - Add a new field or column to the form.
-    - In the field properties, click `Components`, then click `Add Component`.
-    - Select the PCF control from the list and configure it as needed.
 
 ## Usage
 
