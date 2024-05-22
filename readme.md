@@ -85,7 +85,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides detailed instructions on how to build, test, and deploy the PCF control. It also includes sections on usage, contributing, and licensing. Be sure to replace `yourusername` with your actual GitHub username when you clone the repository.
